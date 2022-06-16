@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
   return 'working.......!'
 
-@app.route('/initdb')
+@app.route('/dbinit')
 def db_init():
   mydb = mysql.connector.connect(
     host="mysqldb",
