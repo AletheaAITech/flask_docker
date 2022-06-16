@@ -36,7 +36,7 @@
 - build and run containers:
 	- sudo docker-compose -f docker-compose.dev.yml up --build
 
-## 2. Pull our image from the docker hub
+## 3. Pull our image from the docker hub
 
 - to pull an image write the following command in terminal
 	- sudo docker pull webtunixdc/flask-mysql-docker-api:latest
