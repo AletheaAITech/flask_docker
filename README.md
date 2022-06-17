@@ -51,6 +51,17 @@
 - Now you can browse here:
   - http://localhost:8000/dbinit
   - http://localhost:8000/getdata
+  
+ # _set up a CI/CD pipeline using GitHub Actions_
+  - Make a github repository
+  - Login docker hub account
+  - Go to the github repository click setting>new repository secret> new secret
+  - Create a new secret with the name Docker_hub_username and Docker_ID as value
+  - Create a new Personal Access Token (PAT). To create a new token, go to Docker hub setting and then click New access token
+  - Now, add this Personal access token as a second secret into the github secrets UI with the name Docker_hub_access_token and give token_value as value
+  - Setup the github action workflow
+  - Go to your repository in GitHub and then click Actions>New workflow. 
+  - Make a yml file
 
 
 	
